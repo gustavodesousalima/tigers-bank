@@ -22,11 +22,11 @@ function SectionSecondary(){
             <h2>Personalite Card</h2>
             <div className={Styles.PrimaryCard}>
                 <img src={CaseCard} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iusto magnam beatae delectus architecto ipsam expedita cum amet enim harum?</p>
+                <p>Elegância e proteção em um só lugar. Nossa case de luxo é feita com materiais premium, proporcionando segurança e estilo ao guardar seu cartão. Um acessório exclusivo para quem valoriza sofisticação em cada detalhe.</p>
             </div>
             <div className={Styles.PrimaryCard}>
                 <img src={CardTigers} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iusto magnam beatae delectus architecto ipsam expedita cum amet enim harum?</p>
+                <p>O Cartão Gold Tigers Bank oferece acesso exclusivo a um mundo de benefícios. Com design refinado e limites diferenciados, é o símbolo do poder e da liberdade financeira que você merece.</p>
             </div>
         </section>
     );

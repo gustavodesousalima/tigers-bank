@@ -1,0 +1,36 @@
+.footer {
+    background-color: #000000;
+    color: #FFD700;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .text {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .links {
+    margin-top: 10px;
+  }
+  
+  .link {
+    color:  #f0c369;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
