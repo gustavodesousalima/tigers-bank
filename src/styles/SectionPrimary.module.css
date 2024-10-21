@@ -1,0 +1,57 @@
+.ContainerSectionPrimary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 20px;
+    height: 180vh;
+    gap: 20vh;
+    background-image: url(../assets/backgroundOuros.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.DescriptionSectionPrimary {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+}
+
+.DescriptionSectionPrimary p {
+    background: linear-gradient(90deg, #c18c23 0%, #f9be34 50%, #c6981a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+img{
+    width: 100%;
+    height: 80vh;
+}
+
+.ContainerButtonSectionPrimary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 10vh;
+    gap: 60px;
+}
+
+.ContainerButtonSectionPrimary button{
+    width: 20%;
+    height: 10vh;
+    border: 1px solid #eeba53;
+    border-radius: 10px;
+    background-color: rgb(36, 32, 32);
+    color: #f9be34;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ContainerButtonSectionPrimary button:hover{
+    transform: scale(1.1);
+}
