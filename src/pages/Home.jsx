@@ -1,12 +1,11 @@
 import SectionPrimary from "../componentes/SectionPrimary";
-import SectionSecondary from "../componentes/SectionSecondary";
+import Styles from './Home.module.css';
 
 function Home(){
     return(
-        <>
+        <main className={Styles.ContainerHome}>
         <SectionPrimary />
-        <SectionSecondary />
-        </>
+        </main>
     )
 }
 

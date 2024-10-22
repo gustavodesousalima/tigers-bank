@@ -11,4 +11,23 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Fundo preto */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff; /* Barra de rolagem branca */
+  border-radius: 6px; /* Bordas arredondadas para a barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc; /* Cor da barra de rolagem ao passar o mouse */
 }

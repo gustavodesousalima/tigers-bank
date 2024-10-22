@@ -1,57 +1,197 @@
-.ContainerSectionPrimary {
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.kanitthin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanitextralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanitlight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanitregular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanitmedium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanitsemibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanitbold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanitextrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanitblack {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanitthinitalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanitextralightitalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanitlightitalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanitregularitalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanitmediumitalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanitsemibolditalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanitbolditalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanitextrabolditalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanitblackitalic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+.ContainerSectionPrimary{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 275vh;
+    gap: 45vh;
+}
+
+.Card{
+    height: 220px;
+}
+
+.CapaCard{
+    height: 240px
+}
+
+.TitleSectionPrimary{
+    font-size: 5rem;
+    width: 80%;
+    text-align: center;
+    color: #d5d5d5;
+}
+
+.TitleSectionPrimaryTwo{
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+    color: #d5d5d5;
+}
+
+.ContainerContent{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 40px 20px;
-    height: 180vh;
-    gap: 20vh;
-    background-image: url(../assets/backgroundOuros.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.DescriptionSectionPrimary {
-    text-align: center;
-    font-size: 5em;
-    font-family: 'Times New Roman', Times, serif;
-    width: 60%;
-}
-
-.DescriptionSectionPrimary p {
-    background: linear-gradient(90deg, #c18c23 0%, #f9be34 50%, #c6981a 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-img{
-    width: 100%;
-    height: 80vh;
-}
-
-.ContainerButtonSectionPrimary{
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 10vh;
-    gap: 60px;
+    width: 100%;
+    height: 55vh;
+    gap: 10vh;
+    transition: transform 0.3s ease;
 }
 
-.ContainerButtonSectionPrimary button{
-    width: 20%;
-    height: 10vh;
-    border: 1px solid #eeba53;
-    border-radius: 10px;
-    background-color: rgb(36, 32, 32);
-    color: #f9be34;
-    font-size: 1.4rem;
-    font-weight: bold;
-    cursor: pointer;
+.ContainerContentSobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65vh;
 }
 
-.ContainerButtonSectionPrimary button:hover{
-    transform: scale(1.1);
+.ContentTextSobre{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  width: 60%;
+  height: 35vh;
+}
+
+.ContextText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  gap: 60px;
+  height: 40vh;
+}
+
+.ContentTextSobre img{
+  border-radius: 20px;
+}
+
+.ContextText a{
+  padding: 15px 50px;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+}
+
+.ContextText a:hover{
+  border: 1px solid #b1b1b1;
+  transform: scale(1.1);
+  cursor: pointer;
 }
