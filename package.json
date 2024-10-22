@@ -1,6 +1,6 @@
 {
-  "name": "tigers-bank",
   "homepage": "https://gustavodesousalima.github.io/tigers-bank",
+  "name": "tigers-bank",
   "private": true,
   "version": "0.0.0",
   "type": "module",
